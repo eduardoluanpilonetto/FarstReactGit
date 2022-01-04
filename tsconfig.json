@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",                    
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],           
+    "jsx": "react-jsx",   
+    "module": "commonjs", 
+    "moduleResolution": "node",  
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "removeComments": true,
+    "noEmit": true,      
+    "noEmitOnError": true, 
+    "isolatedModules": true,                       
+    "allowSyntheticDefaultImports": true,        
+    "esModuleInterop": true,     
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                       
+    "noUnusedLocals": true,
+    "skipLibCheck": true   
+  },
+  "include": ["src"]
+}
